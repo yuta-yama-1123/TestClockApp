@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03BAE9F728AB78D200E71864 /* TestClockAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAE9F628AB78D200E71864 /* TestClockAppApp.swift */; };
+		03BAE9F928AB78D200E71864 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAE9F828AB78D200E71864 /* ContentView.swift */; };
+		03BAE9FB28AB78D200E71864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BAE9FA28AB78D200E71864 /* Assets.xcassets */; };
+		03BAE9FE28AB78D200E71864 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BAE9FD28AB78D200E71864 /* Preview Assets.xcassets */; };
+		03BAEA0828AB78D200E71864 /* TestClockAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAEA0728AB78D200E71864 /* TestClockAppTests.swift */; };
+		03BAEA1228AB78D300E71864 /* TestClockAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAEA1128AB78D300E71864 /* TestClockAppUITests.swift */; };
+		03BAEA1428AB78D300E71864 /* TestClockAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BAEA1328AB78D300E71864 /* TestClockAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03BAEA0428AB78D200E71864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BAE9EB28AB78D200E71864 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03BAE9F228AB78D200E71864;
+			remoteInfo = TestClockApp;
+		};
+		03BAEA0E28AB78D300E71864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BAE9EB28AB78D200E71864 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03BAE9F228AB78D200E71864;
+			remoteInfo = TestClockApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BAE9F328AB78D200E71864 /* TestClockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestClockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03BAE9F628AB78D200E71864 /* TestClockAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClockAppApp.swift; sourceTree = "<group>"; };
+		03BAE9F828AB78D200E71864 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03BAE9FA28AB78D200E71864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03BAE9FD28AB78D200E71864 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03BAEA0328AB78D200E71864 /* TestClockAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestClockAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03BAEA0728AB78D200E71864 /* TestClockAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClockAppTests.swift; sourceTree = "<group>"; };
+		03BAEA0D28AB78D300E71864 /* TestClockAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestClockAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03BAEA1128AB78D300E71864 /* TestClockAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClockAppUITests.swift; sourceTree = "<group>"; };
+		03BAEA1328AB78D300E71864 /* TestClockAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClockAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03BAE9F028AB78D200E71864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BAEA0028AB78D200E71864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BAEA0A28AB78D300E71864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03BAE9EA28AB78D200E71864 = {
+			isa = PBXGroup;
+			children = (
+				03BAE9F528AB78D200E71864 /* TestClockApp */,
+				03BAEA0628AB78D200E71864 /* TestClockAppTests */,
+				03BAEA1028AB78D300E71864 /* TestClockAppUITests */,
+				03BAE9F428AB78D200E71864 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03BAE9F428AB78D200E71864 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03BAE9F328AB78D200E71864 /* TestClockApp.app */,
+				03BAEA0328AB78D200E71864 /* TestClockAppTests.xctest */,
+				03BAEA0D28AB78D300E71864 /* TestClockAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03BAE9F528AB78D200E71864 /* TestClockApp */ = {
+			isa = PBXGroup;
+			children = (
+				03BAE9F628AB78D200E71864 /* TestClockAppApp.swift */,
+				03BAE9F828AB78D200E71864 /* ContentView.swift */,
+				03BAE9FA28AB78D200E71864 /* Assets.xcassets */,
+				03BAE9FC28AB78D200E71864 /* Preview Content */,
+			);
+			path = TestClockApp;
+			sourceTree = "<group>";
+		};
+		03BAE9FC28AB78D200E71864 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				03BAE9FD28AB78D200E71864 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03BAEA0628AB78D200E71864 /* TestClockAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				03BAEA0728AB78D200E71864 /* TestClockAppTests.swift */,
+			);
+			path = TestClockAppTests;
+			sourceTree = "<group>";
+		};
+		03BAEA1028AB78D300E71864 /* TestClockAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03BAEA1128AB78D300E71864 /* TestClockAppUITests.swift */,
+				03BAEA1328AB78D300E71864 /* TestClockAppUITestsLaunchTests.swift */,
+			);
+			path = TestClockAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03BAE9F228AB78D200E71864 /* TestClockApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03BAEA1728AB78D300E71864 /* Build configuration list for PBXNativeTarget "TestClockApp" */;
+			buildPhases = (
+				03BAE9EF28AB78D200E71864 /* Sources */,
+				03BAE9F028AB78D200E71864 /* Frameworks */,
+				03BAE9F128AB78D200E71864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestClockApp;
+			productName = TestClockApp;
+			productReference = 03BAE9F328AB78D200E71864 /* TestClockApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03BAEA0228AB78D200E71864 /* TestClockAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03BAEA1A28AB78D300E71864 /* Build configuration list for PBXNativeTarget "TestClockAppTests" */;
+			buildPhases = (
+				03BAE9FF28AB78D200E71864 /* Sources */,
+				03BAEA0028AB78D200E71864 /* Frameworks */,
+				03BAEA0128AB78D200E71864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03BAEA0528AB78D200E71864 /* PBXTargetDependency */,
+			);
+			name = TestClockAppTests;
+			productName = TestClockAppTests;
+			productReference = 03BAEA0328AB78D200E71864 /* TestClockAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03BAEA0C28AB78D300E71864 /* TestClockAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03BAEA1D28AB78D300E71864 /* Build configuration list for PBXNativeTarget "TestClockAppUITests" */;
+			buildPhases = (
+				03BAEA0928AB78D300E71864 /* Sources */,
+				03BAEA0A28AB78D300E71864 /* Frameworks */,
+				03BAEA0B28AB78D300E71864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03BAEA0F28AB78D300E71864 /* PBXTargetDependency */,
+			);
+			name = TestClockAppUITests;
+			productName = TestClockAppUITests;
+			productReference = 03BAEA0D28AB78D300E71864 /* TestClockAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03BAE9EB28AB78D200E71864 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					03BAE9F228AB78D200E71864 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					03BAEA0228AB78D200E71864 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 03BAE9F228AB78D200E71864;
+					};
+					03BAEA0C28AB78D300E71864 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 03BAE9F228AB78D200E71864;
+					};
+				};
+			};
+			buildConfigurationList = 03BAE9EE28AB78D200E71864 /* Build configuration list for PBXProject "TestClockApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03BAE9EA28AB78D200E71864;
+			productRefGroup = 03BAE9F428AB78D200E71864 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03BAE9F228AB78D200E71864 /* TestClockApp */,
+				03BAEA0228AB78D200E71864 /* TestClockAppTests */,
+				03BAEA0C28AB78D300E71864 /* TestClockAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03BAE9F128AB78D200E71864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BAE9FE28AB78D200E71864 /* Preview Assets.xcassets in Resources */,
+				03BAE9FB28AB78D200E71864 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BAEA0128AB78D200E71864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BAEA0B28AB78D300E71864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03BAE9EF28AB78D200E71864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BAE9F928AB78D200E71864 /* ContentView.swift in Sources */,
+				03BAE9F728AB78D200E71864 /* TestClockAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BAE9FF28AB78D200E71864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BAEA0828AB78D200E71864 /* TestClockAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03BAEA0928AB78D300E71864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BAEA1228AB78D300E71864 /* TestClockAppUITests.swift in Sources */,
+				03BAEA1428AB78D300E71864 /* TestClockAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03BAEA0528AB78D200E71864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03BAE9F228AB78D200E71864 /* TestClockApp */;
+			targetProxy = 03BAEA0428AB78D200E71864 /* PBXContainerItemProxy */;
+		};
+		03BAEA0F28AB78D300E71864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03BAE9F228AB78D200E71864 /* TestClockApp */;
+			targetProxy = 03BAEA0E28AB78D300E71864 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03BAEA1528AB78D300E71864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03BAEA1628AB78D300E71864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03BAEA1828AB78D300E71864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestClockApp/Preview Content\"";
+				DEVELOPMENT_TEAM = D92QVWG5E4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutaYamamoto1123.TestClockApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03BAEA1928AB78D300E71864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestClockApp/Preview Content\"";
+				DEVELOPMENT_TEAM = D92QVWG5E4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutaYamamoto1123.TestClockApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03BAEA1B28AB78D300E71864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D92QVWG5E4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutaYamamoto1123.TestClockAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestClockApp.app/TestClockApp";
+			};
+			name = Debug;
+		};
+		03BAEA1C28AB78D300E71864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D92QVWG5E4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutaYamamoto1123.TestClockAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestClockApp.app/TestClockApp";
+			};
+			name = Release;
+		};
+		03BAEA1E28AB78D300E71864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D92QVWG5E4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutaYamamoto1123.TestClockAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestClockApp;
+			};
+			name = Debug;
+		};
+		03BAEA1F28AB78D300E71864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D92QVWG5E4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutaYamamoto1123.TestClockAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestClockApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03BAE9EE28AB78D200E71864 /* Build configuration list for PBXProject "TestClockApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BAEA1528AB78D300E71864 /* Debug */,
+				03BAEA1628AB78D300E71864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03BAEA1728AB78D300E71864 /* Build configuration list for PBXNativeTarget "TestClockApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BAEA1828AB78D300E71864 /* Debug */,
+				03BAEA1928AB78D300E71864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03BAEA1A28AB78D300E71864 /* Build configuration list for PBXNativeTarget "TestClockAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BAEA1B28AB78D300E71864 /* Debug */,
+				03BAEA1C28AB78D300E71864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03BAEA1D28AB78D300E71864 /* Build configuration list for PBXNativeTarget "TestClockAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BAEA1E28AB78D300E71864 /* Debug */,
+				03BAEA1F28AB78D300E71864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03BAE9EB28AB78D200E71864 /* Project object */;
+}
